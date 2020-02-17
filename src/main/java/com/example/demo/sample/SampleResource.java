@@ -4,13 +4,14 @@ import java.util.List;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
-// Lombokを使えば良い
 @XmlRootElement
 public class SampleResource {
 
 	private Integer integer;
 	private String string;
 	private List<String> strings;
+
+	// Lombokを使えば良い
 
 	public Integer getInteger() {
 		return integer;
